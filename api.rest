@@ -1,0 +1,17 @@
+GET  http://127.0.0.1:3000/api/user/profile
+Content-Type: application/json
+auth_token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MDZjN2I3ZGY3M2I4NzU0OTY5MTZkYzUiLCJpYXQiOjE2MTc3MjQ5NDl9.ve86E-zlaMidSg6fIfSXpnYBakjU9IART1iQmYMd7IQ
+
+{
+    "email":"devil@gmail.com",
+    "password":"devanurag@123"
+}
+
+########################################
+POST  http://127.0.0.1:3000/api/user/login
+Content-Type: application/json
+
+{
+    "email":"devil@gmail.com",
+    "password":"devanurag@123"
+}
